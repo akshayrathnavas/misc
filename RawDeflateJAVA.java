@@ -8,5 +8,5 @@ try {
     def.close();
     compressed = new String(out.toByteArray());
 } catch(Exception e) {
-
+    System.out.println(e);
 }
